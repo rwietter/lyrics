@@ -1,0 +1,207 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@font-face {
+  font-family: 'Brandon Grotesque Medium';
+  src: url('./assets/Brandon_med.woff'); 
+  src: url('./assets/Brandon_med.woff#iefix') format('embedded-opentype')
+}
+@font-face {
+  font-family: 'Brandon Grotesque Bold';
+  src: url('./assets/Brandon_bld.woff');
+}
+@font-face {
+  font-family: 'Brandon Grotesque light';
+  src: url('./assets/Brandon_light.woff');
+}
+
+*, 
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.title {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Brandon Grotesque Bold';
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #10161B;
+  font-family: 'Brandon Grotesque Medium', Helvetica, sans-serif;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  -webkit-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+header {
+  background-image: url('https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 100px 0;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+header * {
+  z-index: 1;
+}
+
+header h1 {
+  margin: 0 0 30px;
+}
+
+form {
+  position: relative;
+  width: 500px;
+  max-width: 100%;
+}
+
+form input {
+  border: 0;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 15px 30px;
+  width: 100%;
+  font-size: 1em;
+  font-family: "Brandon Grotesque light";
+}
+
+.form-button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-color: #8d56fd;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 1em;
+  font-family: "Brandon Grotesque Medium";
+  padding: 13px 30px;
+}
+
+.btn {
+  background-color: #8d56fd;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 0.7em;
+  font-family: "Brandon Grotesque light", Arial, Helvetica, sans-serif;
+}
+
+.songs-container {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  font-size: 1.3em;
+  margin: 30px auto;
+  max-width: 100%;
+  width: 500px;
+  background-color: #10161B;
+}
+
+.song {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 0;
+}
+
+.prev-and-next-container h2 {
+  font-weight: 300;
+}
+
+.prev-and-next-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1em;
+  font-family: "Brandon Grotesque light", Arial, Helvetica, sans-serif !important;
+}
+
+.prev-and-next-container button {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+  margin: 15px;
+}
+
+.warning-message {
+  color: #EA2234;
+  text-align: center;
+}
+
+.song-artist {
+  color: white;
+  opacity: .4;
+  max-width: 400px;
+}
+
+.lyrics-container {
+  color: white;
+  opacity: .4;
+}
+
+.lyrics {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.solid {
+  border-top: 0.001em solid #222;
+  margin: 1em 0 1em 0;
+}

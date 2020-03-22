@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lyrics Search</title>
+  <link rel="stylesheet" href="./styles/styles.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./static/images/google-play-music.png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <meta name="Description" content="Author: @rwietter, Illustrator: clean, Category: lyrics, Price: free, Length: 1 pages">
+</head>
+<body>
+  <header>
+    <h1 class="title">Encontre a letra</h1>
+    <form id="form">
+      <input
+        autofocus
+        class="form-input"
+        id="search"
+        type="text"
+        placeholder="Insira o nome do artista ou da música..."
+      />
+      <button class="form-button">Buscar</button>
+    </form>
+  </header>
+  <ul id="songs-container" class="songs-container songs"></ul>
+  <div id="prev-and-next-container" class="prev-and-next-container"></div>
+  <script src="./javascript/app.min.js"></script>
+</body>
+</html>
