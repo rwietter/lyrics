@@ -1,3 +1,3 @@
 # search-lyrics-vanilla-js
 
-[Go page](fetchlyrics.netlify.com)
+[Go page](https://fetchlyrics.netlify.com)
